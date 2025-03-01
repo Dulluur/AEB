@@ -1,0 +1,18 @@
+# Модули
+node_modules/
+
+# Кэш vite и сборка проекта
+dist/
+.vite/
+
+# Конфигурация и временные файлы
+#.env — скрывает файлы с переменными окружения (например, API-ключи).
+#.DS_Store и Thumbs.db — системные файлы macOS и Windows, которые не нужны в репозитории.
+.env/ 
+.DS_Store
+Thumbs.db
+
+# Логи и отладочная информация
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
